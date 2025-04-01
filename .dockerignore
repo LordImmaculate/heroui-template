@@ -1,0 +1,8 @@
+.github
+.next
+node_modules
+LICENSE
+README.md
+.git
+Dockerfile
+npm-debug.log
