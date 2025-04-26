@@ -1,3 +1,5 @@
+import { Snippet } from "@heroui/snippet";
+
 import { title } from "@/components/primitives";
 
 export default function Home() {
@@ -6,6 +8,7 @@ export default function Home() {
       <div className="inline-block max-w-xl text-center justify-center">
         <span className={title()}>Welcome to your new HeroUI project</span>
       </div>
+      <Snippet>npm create-immaculate-app@latest</Snippet>
     </section>
   );
 }

@@ -1,13 +1,13 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { Link } from "@heroui/link";
-import clsx from "clsx";
-
-import { Providers } from "./providers";
+import { clsx } from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/Navbar";
+
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: {
@@ -51,8 +51,8 @@ export default function RootLayout({
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href="https://heroui.com?utm_source=next-app-template"
-                title="heroui.com homepage"
+                href="https://github.com/LordImmaculate"
+                title="LordImmaculate's Github"
               >
                 <span>LordImmaculate&apos;s HeroUI + Next.js Template</span>
               </Link>

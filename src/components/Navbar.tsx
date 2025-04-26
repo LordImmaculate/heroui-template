@@ -10,7 +10,7 @@ import {
 import { Link } from "@heroui/link";
 import { link as linkStyles } from "@heroui/theme";
 import NextLink from "next/link";
-import clsx from "clsx";
+import { clsx } from "clsx";
 import { FaGithub } from "react-icons/fa";
 
 import { siteConfig } from "@/config/site";
